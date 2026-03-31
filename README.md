@@ -31,10 +31,10 @@ a Tier 1 and Tier 2 SOC analyst.
 
 ## 🏗️ Lab Architecture
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    ISOLATED LAB NETWORK                      │
-│                   VirtualBox NAT Network                     │
-│                                                             │
+┌────────────────────────────────────────────────────────────┐
+│                    ISOLATED LAB NETWORK                    │
+│                   VirtualBox NAT Network                   │
+│                                                            │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
 │  │  Windows 10  │    │  Kali Linux  │    │Ubuntu Server │  │
 │  │   Victim     │    │   Attacker   │    │  SIEM Node   │  │
@@ -44,10 +44,10 @@ a Tier 1 and Tier 2 SOC analyst.
 │  │ • Splunk UF  │    │ • Nmap       │    │   10.2.1     │  │
 │  │ • Win Logs   │    │ • Netcat     │    │              │  │
 │  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘  │
-│         │                  │ Attacks            │           │
-│         └──────────────────┼────────────────────┘           │
-│                    Logs via port 9997                        │
-└─────────────────────────────────────────────────────────────┘
+│         │                  │ Attacks            │          │
+│         └──────────────────┼────────────────────┘          │
+│                    Logs via port 9997                      │
+└────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -217,7 +217,8 @@ index=windows_logs EventCode=1
 ![Alerts 2](screenshots/alerts_2.png)
 
 ### Sysmon Operational Logs in Windows Event Viewer
-![Sysmon](screenshots/sysmon_events.png)
+![Sysmon](screenshots/sysmon1.png)
+![Sysmon](screenshots/sysmon2.png)
 
 ---
 
