@@ -204,13 +204,13 @@ index=windows_logs EventCode=1
 ![Dashboard 2](screenshots/dashboard_2.png)
 
 ### SSH Brute Force Attack Detected in Splunk
-![SSH Brute Force](screenshots/SSH_brute_force.png)
+![SSH Brute Force](screenshots/ssh_brute_force.png)
 
 ### Windows Security Events — Failed Logons and Account Lockout
 ![Windows Events](screenshots/windows_events.png)
 
 ### Hydra Brute Force Attack Running from Kali
-![Hydra Attack](screenshots/Hydra_attack.png)
+![Hydra Attack](screenshots/hydra_attack.png)
 
 ### Splunk Detection Alerts — All 5 Rules Active
 ![Alerts 1](screenshots/alerts_1.png)
